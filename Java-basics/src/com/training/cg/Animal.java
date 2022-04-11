@@ -10,6 +10,16 @@ public class Animal {
 	
 	  public String getInfo() { return name+ " is a "+type +" who is " +age
 	  +" years old"; }
+	  
+	  public int getNumber(int a) {
+		  try {
+			  return a/0;
+		  }
+		  catch(Exception e) {
+			  System.out.println("Exception occured");
+			  return -1;
+		  }
+	  }
 	 
 	 
 

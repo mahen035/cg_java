@@ -1,0 +1,24 @@
+package com.training.springboot.model;
+
+import javax.persistence.Id;
+
+public class Student {
+	
+	@Id
+	private int stud_id;
+	
+	private String first_name;
+	
+	private String last_name;
+
+	public int getId() {
+		return stud_id;
+	}
+
+	public void setId(int id) {
+		this.stud_id = id;
+	}
+
+	
+	
+}
