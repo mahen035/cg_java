@@ -13,6 +13,8 @@ import com.training.movies.model.Movies;
 import com.training.movies.repository.MoviesRepository;
 import com.training.movies.service.MoviesService;
 
+
+//mkumar: Adding comment
 @Controller
 public class MoviesController {
 
