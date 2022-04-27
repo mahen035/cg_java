@@ -4,8 +4,8 @@
     xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
     <persistence-unit name="JPADemo" transaction-type="RESOURCE_LOCAL">
-        <class>com.training.cg.model.onemany.Department1</class> 
-        <class>com.training.cg.model.onemany.Employee1</class>     
+        <class>com.training.cg.model.oneone.Movie</class> 
+        <class>com.training.cg.model.oneone.Shows</class>     
         <properties>
             <!-- Configuring The Database Connection Details -->
             <property name="javax.persistence.jdbc.driver" value="org.postgresql.Driver" />

@@ -22,10 +22,11 @@ public class MoviesService {
 		moviesrepository.save(movies);
 	}
 	
-	public void addMovie(String movieName, int year, double rating, String category) {
-		moviesrepository.save(new Movies(movieName,year,rating,category));
-	}
-	
+	/*
+	 * public void addMovie(String movieName, int year, double rating, String
+	 * category) { moviesrepository.save(new
+	 * Movies(movieName,year,rating,category)); }
+	 */
 	/*public Movies updateMovie(int id,String name,int year,double rating,String category) {
 		Movies upMovie = moviesrepository.findById(id);
 	}*/

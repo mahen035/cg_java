@@ -1,5 +1,6 @@
 package com.training.movies.model;
 
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -7,70 +8,76 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Entity
-@Table(name="movies")
+@Table(name="MOVIE22")
 public class Movies {
-	
+
 	@Id
-	@GeneratedValue(strategy = GenerationType.AUTO)
-	private int id;
+	@GeneratedValue(strategy=GenerationType.AUTO)
+	private String movieId;
 	
+	@Column(name="movie_name")
 	private String movieName;
-	private int year;
-	private double rating;
-	private String category;
 	
+	@Column(name="movie_genre")
+	private String movieGenre;
+	
+	@Column(name="movie_hours")
+	private String movieHours;
+	
+	@Column(name="language")
+	private String language;
+	
+	@Column(name="description")
+	private String description;
 	public Movies() {
+		super();
 		// TODO Auto-generated constructor stub
 	}
-
-	public Movies(String movieName, int year, double rating, String category) {
+	public Movies(String movieId, String movieName, String movieGenre, String movieHours, String language,
+			String description) {
 		super();
+		this.movieId = movieId;
 		this.movieName = movieName;
-		this.year = year;
-		this.rating = rating;
-		this.category = category;
+		this.movieGenre = movieGenre;
+		this.movieHours = movieHours;
+		this.language = language;
+		this.description = description;
 	}
-
-	public int getId() {
-		return id;
+	public String getMovieId() {
+		return movieId;
 	}
-
-	public void setId(int id) {
-		this.id = id;
+	public void setMovieId(String movieId) {
+		this.movieId = movieId;
 	}
-
 	public String getMovieName() {
 		return movieName;
 	}
-
 	public void setMovieName(String movieName) {
 		this.movieName = movieName;
 	}
-
-	public int getYear() {
-		return year;
+	public String getMovieGenre() {
+		return movieGenre;
 	}
-
-	public void setYear(int year) {
-		this.year = year;
+	public void setMovieGenre(String movieGenre) {
+		this.movieGenre = movieGenre;
 	}
-
-	public double getRating() {
-		return rating;
+	public String getMovieHours() {
+		return movieHours;
 	}
-
-	public void setRating(double rating) {
-		this.rating = rating;
+	public void setMovieHours(String movieHours) {
+		this.movieHours = movieHours;
 	}
-
-	public String getCategory() {
-		return category;
+	public String getLanguage() {
+		return language;
 	}
-
-	public void setCategory(String category) {
-		this.category = category;
+	public void setLanguage(String language) {
+		this.language = language;
 	}
-	
-	
+	public String getDescription() {
+		return description;
+	}
+	public void setDescription(String description) {
+		this.description = description;
+	}
 	
 }

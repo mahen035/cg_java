@@ -6,14 +6,9 @@ import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
 
 @SpringBootApplication
-public class SpringBootMoviesApplication extends SpringBootServletInitializer{
+public class SpringBootMoviesApplication {
 
-	@Override
-	protected SpringApplicationBuilder configure(SpringApplicationBuilder builder) {
-        return builder.sources(SpringBootMoviesApplication.class);
-    }
-	
-	
+		
 	public static void main(String[] args) {
 		SpringApplication.run(SpringBootMoviesApplication.class, args);
 	}
