@@ -15,6 +15,7 @@ import com.training.movies.service.MoviesService;
 
 
 //mkumar: Adding comment
+//mkumar5:commenting to demonstrate git merge
 @Controller
 public class MoviesController {
 
