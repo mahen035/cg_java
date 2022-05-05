@@ -13,7 +13,7 @@ public class PersonService {
 	
 	@Autowired
 	PersonRepository personRepository;
-	//adding comment
+	//adding comment to demonstrate git merge:mahendra
 	public List<Person> getListOfPersons(){
 	
 		List<Person> persons = (List<Person>)personRepository.findAll();
