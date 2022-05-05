@@ -13,9 +13,8 @@ import com.training.movies.model.Movies;
 import com.training.movies.repository.MoviesRepository;
 import com.training.movies.service.MoviesService;
 
-
-//mkumar: Adding comment
 //mkumar5:commenting to demonstrate git merge
+//@uthor: mkumar1
 @Controller
 public class MoviesController {
 
