@@ -2,7 +2,7 @@ package com.training.cg.model;
 
 import java.util.List;
 import java.util.Set;
-
+//Test Comment 2
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.Persistence;
