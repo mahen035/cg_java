@@ -2,7 +2,7 @@ package com.training.cg.model;
 
 import java.util.List;
 import java.util.Set;
-
+//Test Comment 2
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.Persistence;
@@ -15,7 +15,7 @@ import javax.validation.ConstraintViolation;
 import javax.validation.Validation;
 import javax.validation.Validator;
 import javax.validation.ValidatorFactory;
-
+//Added by Naga Priya K
 public class JPADemo {
 	
 	private static final EntityManagerFactory emFactoryObj;
