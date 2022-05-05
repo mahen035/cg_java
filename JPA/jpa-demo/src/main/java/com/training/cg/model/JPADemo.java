@@ -15,7 +15,7 @@ import javax.validation.ConstraintViolation;
 import javax.validation.Validation;
 import javax.validation.Validator;
 import javax.validation.ValidatorFactory;
-
+//Added by Naga Priya K
 public class JPADemo {
 	
 	private static final EntityManagerFactory emFactoryObj;
